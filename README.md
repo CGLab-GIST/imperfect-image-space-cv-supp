@@ -1,4 +1,4 @@
-# Interactive Viewer for Input-Dependent Uncorrelated Weighting for Monte Carlo Denoising
+# Interactive Viewer for Imperfect Image-Space Control Variates for Monte Carlo Rendering
 
 ## License
 
