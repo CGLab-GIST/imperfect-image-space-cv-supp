@@ -79,7 +79,7 @@ const data =
                 "Input image (PT)",
                 "Input image (CRN)",
                 "IDUW",
-                "CV",
+                "Baseline",
                 "Ours"
             ],
             "series": [
@@ -113,7 +113,7 @@ const data =
                 "Input image (PT)",
                 "Input image (CRN)",
                 "IDUW",
-                "CV",
+                "Baseline",
                 "Ours"
             ],
             "series": [
