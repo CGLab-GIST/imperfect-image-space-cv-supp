@@ -10,7 +10,7 @@ const data =
                     "image": "images/192spp/pt.png"
                 },
                 {
-                    "title": "RegMC",
+                    "title": "CV (polynomials)",
                     "version": "-",
                     "image": "images/192spp/regmc.png"
                 },
@@ -35,7 +35,7 @@ const data =
                     "image": "images/768spp/pt.png"
                 },
                 {
-                    "title": "RegMC",
+                    "title": "CV (polynomials)",
                     "version": "-",
                     "image": "images/768spp/regmc.png"
                 },
@@ -57,7 +57,7 @@ const data =
             "title": "short-term rendering",
             "labels": [
                 "PT",
-                "RegMC",
+                "CV (polynomials)",
                 "Ours"
             ],
             "series": [
@@ -85,7 +85,7 @@ const data =
             "title": "long-term rendering",
             "labels": [
                 "PT",
-                "RegMC",
+                "CV (polynomials)",
                 "Ours"
             ],
             "series": [
