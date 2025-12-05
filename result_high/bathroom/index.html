@@ -30,11 +30,17 @@
         var box = document.getElementById('image-box');
 
         var help = document.createElement('div');
-        var helpText = "Use mouse wheel to zoom in/out, click and drag to pan. Press keys [1], [2], ... to switch between individual images.";
-        if (!local) {
-            helpText += " Press [?] to see more keybindings.";
-        }
-        help.appendChild(document.createTextNode(helpText));
+        var helpText = "< Instructions for the viewer below ><br>" +
+                        "Zoom: Use the mouse wheel to zoom in and out.<br>" +
+                        "Pan: Click and drag to move the image.<br>" +
+                        "Switch views: Press number keys (e.g., [1], [2], ...) to toggle between comparison images.<br>" +
+                        "Switch the results from 192 to 1536 samples per pixel (spp): Click the button on Results (1536 spp).";
+        
+        help.innerHTML = helpText;
+        // if (!local) {
+        //     helpText += " Press [?] to see more keybindings.";
+        // }
+        // help.appendChild(document.createTextNode(helpText));
         help.className = "help";
         box.appendChild(help);
 
@@ -52,8 +58,8 @@
         }
         
         // new ChartBox(content, data["stats"]);
-        new TableBox(content, "Statistics", data["stats_short"]);
-		new TableBox(content, "Statistics", data["stats_long"]);
+        new TableBox(content, "Relative mean squared errors (relMSEs) of the images", data["stats_short"]);
+		new TableBox(content, "", data["stats_long"]);
         //new PlotBox(content, "Convergence Plots", data["stats"]);
     }
 </script>

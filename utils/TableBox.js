@@ -25,7 +25,8 @@ var TableBox = function(parent, title, stats) {
 
     var h1 = document.createElement("h1");
     h1.className = "title";
-    h1.appendChild(document.createTextNode(title + " for " + stats[0]['title']));
+    // h1.appendChild(document.createTextNode(title + " for " + stats[0]['title']));
+    h1.appendChild(document.createTextNode(title));
 
     var box = document.createElement("div");
     box.className = "table-box";

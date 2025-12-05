@@ -2,17 +2,17 @@ const data =
 {
     "imageBoxes": [
         {
-            "title": "Short-term rendering",
+            "title": "Results (192 spp)",
             "elements": [
                 {
-                    "title": "Input image (PT)",
-                    "version": "-",
-                    "image": "images/192spp/ptInRand.png"
-                },
-                {
-                    "title": "Input image (CRN)",
+                    "title": "Input (CRN)",
                     "version": "-",
                     "image": "images/192spp/ptInCorr.png"
+                },
+                {
+                    "title": "Input (PT)",
+                    "version": "-",
+                    "image": "images/192spp/ptInRand.png"
                 },
                 {
                     "title": "IDUW",
@@ -37,32 +37,32 @@ const data =
             ]
         },
         {
-            "title": "Long-term rendering",
+            "title": "Results (1536 spp)",
             "elements": [
                 {
-                    "title": "Input image (PT)",
+                    "title": "Input (CRN)",
                     "version": "-",
-                    "image": "images/768spp/ptInRand.png"
+                    "image": "images/1536spp/ptInCorr.png"
                 },
                 {
-                    "title": "Input image (CRN)",
+                    "title": "Input (PT)",
                     "version": "-",
-                    "image": "images/768spp/ptInCorr.png"
+                    "image": "images/1536spp/ptInRand.png"
                 },
                 {
                     "title": "IDUW",
                     "version": "-",
-                    "image": "images/768spp/iduw.png"
+                    "image": "images/1536spp/iduw.png"
                 },
                 {
                     "title": "CV (baseline)",
                     "version": "-",
-                    "image": "images/768spp/cv.png"
+                    "image": "images/1536spp/cv.png"
                 },
                 {
                     "title": "Ours",
                     "version": "-",
-                    "image": "images/768spp/ours.png"
+                    "image": "images/1536spp/ours.png"
                 },
                 {
                     "title": "Reference (65K spp)",
@@ -74,10 +74,10 @@ const data =
     ],
     "stats_short": [
         {
-            "title": "short-term rendering",
+            "title": "Results (192 spp)",
             "labels": [
-                "Input image (PT)",
-                "Input image (CRN)",
+                "Input (CRN)",
+                "Input (PT)",
                 "IDUW",
                 "CV (baseline)",
                 "Ours"
@@ -96,11 +96,11 @@ const data =
                 {
                     "label": "relMSE",
                     "data": [
-                        "0.010663",
-                        "0.009912",
-                        "0.001161",
-                        "0.001182",
-                        "0.000701"
+                        "0.011147",
+                        "0.011279",
+                        "0.001497",
+                        "0.001298",
+                        "0.000617"
                     ]
                 }
             ]
@@ -108,10 +108,10 @@ const data =
     ],
     "stats_long": [
         {
-            "title": "long-term rendering",
+            "title": "Results (1536 spp)",
             "labels": [
-                "Input image (PT)",
-                "Input image (CRN)",
+                "Input (CRN)",
+                "Input (PT)",
                 "IDUW",
                 "CV (baseline)",
                 "Ours"
@@ -120,21 +120,21 @@ const data =
 				{
                     "label": "spp",
                     "data": [
-                        "384",
-                        "384",
                         "768",
                         "768",
-                        "768"
+                        "1536",
+                        "1536",
+                        "1536"
                     ]
                 },
                 {
                     "label": "relMSE",
                     "data": [
-                        "0.002670",
-                        "0.001548",
-                        "0.000353",
-                        "0.000276",
-                        "0.000211"
+                        "0.002096",
+                        "0.001418",
+                        "0.000248",
+                        "0.000157",
+                        "0.000118"
                     ]
                 }
             ]

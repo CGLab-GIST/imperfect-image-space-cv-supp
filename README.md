@@ -1,8 +1,3 @@
-# Interactive Viewer for Imperfect Image-Space Control Variates for Monte Carlo Rendering
+Please open the "index.html" file where you can navigate full-resolution results used in our submission, 
+Imperfect Image-Space Control Variates for Monte Carlo Rendering
 
-## License
-
-All codes for the interactive viewer are licensed under the MIT License.
-Please see the [LICENSE](LICENSE) file for more details.
-
-## Credits

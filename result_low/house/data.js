@@ -2,7 +2,7 @@ const data =
 {
     "imageBoxes": [
         {
-            "title": "Short-term rendering",
+            "title": "Results (192 spp)",
             "elements": [
                 {
                     "title": "PT",
@@ -27,22 +27,22 @@ const data =
             ]
         },
         {
-            "title": "Long-term rendering",
+            "title": "Results (1536 spp)",
             "elements": [
                 {
                     "title": "PT",
                     "version": "-",
-                    "image": "images/768spp/pt.png"
+                    "image": "images/1536spp/pt.png"
                 },
                 {
                     "title": "CV (polynomials)",
                     "version": "-",
-                    "image": "images/768spp/regmc.png"
+                    "image": "images/1536spp/regmc.png"
                 },
                 {
                     "title": "Ours",
                     "version": "-",
-                    "image": "images/768spp/ours.png"
+                    "image": "images/1536spp/ours.png"
                 },
                 {
                     "title": "Reference (65K spp)",
@@ -54,7 +54,7 @@ const data =
     ],
     "stats_short": [
         {
-            "title": "short-term rendering",
+            "title": "Results (192 spp)",
             "labels": [
                 "PT",
                 "CV (polynomials)",
@@ -72,9 +72,9 @@ const data =
                 {
                     "label": "relMSE",
                     "data": [
-                        "0.004198",
-                        "0.003173",
-                        "0.001194"
+                        "0.004386",
+                        "0.003316",
+                        "0.001265"
                     ]
                 }
             ]
@@ -82,7 +82,7 @@ const data =
     ],
     "stats_long": [
         {
-            "title": "long-term rendering",
+            "title": "Results (1536 spp)",
             "labels": [
                 "PT",
                 "CV (polynomials)",
@@ -92,17 +92,17 @@ const data =
 				{
                     "label": "spp",
                     "data": [
-                        "768",
-                        "768",
-                        "768"
+                        "1536",
+                        "1536",
+                        "1536"
                     ]
                 },
                 {
                     "label": "relMSE",
                     "data": [
-                        "0.001064",
-                        "0.000732",
-                        "0.000277"
+                        "0.000558",
+                        "0.000382",
+                        "0.000157"
                     ]
                 }
             ]
