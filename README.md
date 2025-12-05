@@ -1,4 +1,4 @@
-# Interactive Viewer for Imperfect Image-Space Control Variate for Monte Carlo Rendering
+# Interactive Viewer for Imperfect Image-Space Control Variates for Monte Carlo Rendering
 
 ## License
 
